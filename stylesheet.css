@@ -1,4 +1,43 @@
-h1
-{
-    background-color: black;
+body {
+    background-color: #ffe993;
 }
+
+@keyframes blink {
+    from {color: white;}
+    to {color: black;}
+}
+
+#header {
+    background-color: #5e5e5e;
+    height: 10px;
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+#center {
+    border: 2px solid #5e5e5e;
+    width: 400px;
+    background-color: black;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+h3 {
+    color: white;
+    font-family: Monaco;
+    padding-left: 2px;
+}
+#center-bottom{
+    height: 10px;
+    background-color: #5e5e5e;
+    border: 1px solid white;
+    border-top: none;
+}
+
+span {
+    animation-name: blink;
+    animation-duration: 0.75s;
+    anitmation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
