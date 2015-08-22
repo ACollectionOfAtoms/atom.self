@@ -1,4 +1,4 @@
-window.onload = addListeners();
+window.onLoad = addListeners();
 
 function addListeners(){
     document.getElementById('center').addEventListener('mousedown', mouseDown, false);
