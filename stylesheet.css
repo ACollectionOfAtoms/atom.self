@@ -1,5 +1,5 @@
 body {
-    background-color: #ffe993;
+    background: "http://i180.photobucket.com/albums/x166/dilsadapunjabi/OS20X20Wallpaper1.jpg";
 }
 @keyframes blink {
     from {color: white;}
@@ -11,15 +11,21 @@ body {
     border: 1px solid white;
     border-bottom: none;
 }
+#red {
+    background-color: red;
+    border-radious: 100%;
+    height: 1px;
+    width: 1px;
+}
 #center {
     border: 2px solid #5e5e5e;
-    width: 400px;
+    width: 200px;
     background-color: black;
     margin: auto;
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
-h3 {
+.terminal {
     color: white;
     font-family: Monaco;
     padding-left: 2px;
@@ -32,20 +38,61 @@ h3 {
 }
 #footer {
     height: 20px;
-    width: 300px;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 20px;
-    background-color: black;
-    position: inline-block
+    left: 0;
+    background-color: #333333;
+    border-top: 1px solid black;
+    display: inline-block;
 }
-#start {
+#start-button {
+    height: 20px;
+    width: 30px;
+    background-color: gray;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    border-right: 1px solid black;
+}
+#circle {
     height: 20px;
     width: 20px;
-    position: fixed;
-    background-color: white;
-    position: inline-block;
+    background:#222 -webkit-radial-gradient(20% 80%, 60% 60%, rgba(255,255,255,.15), rgba(255,255,255,0));
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: auto;
+}
+#foot-info {
+    height: 20px;
+    width: 160px;
+    background-color: gray;
     bottom: 0;
+    right: 0;
+    position: fixed;
+    margin: 0;
+    text-align: center left;
+    padding-left: 5px;
+    color: black;
+    font-family: Monaco;
+    font-size: small;
+    display: inline-block;
+}
+#txt {
+    height: 20px;
+    width: 80px;
+    background-color: grey;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-family: Monaco;
+    font-size: small;
+    float: left;
+    border-left: 1px solid black;
+    padding-left: -20px;
 }
 span {
     animation-name: blink;
