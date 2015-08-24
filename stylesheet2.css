@@ -1,0 +1,56 @@
+body {
+    background-image: url("Lance.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    margin-top: 0px;
+}
+#top {
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-right: solid white 1px;
+}
+#left {
+    background-color: black;
+    float: left;
+    height: 500px;
+    width: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#center{
+    color: black;
+    height: 2000px;
+    width: 500pt;
+    background-color: white;
+    float: left;
+    opacity: 0.75;
+    border: 1px solid black;
+    padding: 10px;
+}
+#right {
+    background-color: black;
+    float: left;
+    height: 500px;
+    width: 50px;
+    margin-top: 20px;
+}
+#bottom {
+    clear: left;
+    background-color: black;
+    height: 100px;
+    margin-left: 50px;
+    width: 517pt;
+}
+#wrapper {
+    margin-bottom: 0;
+    padding: 0px;
+}
+.left_button {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
