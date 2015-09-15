@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+#body {
+  height: 200px;
+  width: 80%;
+  background-color:white;
+}
+.main {
+  display: inline-block;
+}
+#header {
+  background-color: black;
+  color: white;
+}
